@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
 
 :root {
   --color-accent: #ff6500;
@@ -9,7 +9,7 @@
   --color-underlay: #0b192c;
   --color-background: #000000;
 
-  --font-pixelify: "Pixelify Sans", sans-serif;
+  --font-bungee: "Bungee", sans-serif;
   --font-inter: "Inter", sans-serif;
 }
 
@@ -70,8 +70,7 @@ header {
 }
 
 header h1 {
-  font-family: var(--font-pixelify);
-  font-weight: 600;
+  font-family: var(--font-bungee);
   font-size: 3.5rem;
 }
 
@@ -92,7 +91,7 @@ nav {
 }
 
 nav a {
-  font-family: var(--font-pixelify);
+  font-family: var(--font-bungee);
   font-size: 1.2rem;
 }
 
@@ -194,9 +193,8 @@ section h2 {
 }
 
 .card-header {
-  font-family: var(--font-pixelify);
+  font-family: var(--font-bungee);
   font-size: 1.3rem;
-  font-weight: 500;
 }
 
 .card-column {
